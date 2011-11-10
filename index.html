@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB18030">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+$(function() {
+    var $o = $(".j_Slide");
+    var ks = $o.find("ol").Oslide({
+        slidetag:$o.find("ol>li"),
+        easing:"easeInOutCirc",
+        direct:'down',
+        time:6000,
+        speed:450
+    });
+});
+</script>
+<style type="text/css">
+    body{font:12px/1.5 Tahoma,Helvetica,Arial,sans-serif;}
+    body,div,ul,ol,li,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+    img{border:none;}
+    a,a:link,a:visited{color:#333333;text-decoration:none;cursor:pointer;}
+    a:hover{color:#008b00;text-decoration:underline;}
+    .hd h3{font-size:14px;color:#444444;padding-left:10px;color:#fff;line-height:30px;}
+    .loading{background:#f9fdff url('http://www.zzsky.cn/effect/images/201004241815/T16WJqXaXeXXXXXXXX-32-32.gif') no-repeat 50% 50%;}
+    .j_Slide{width:470px;height:150px;overflow:hidden;position:relative;-webkit-border-radius:4px;}
+    .j_Slide .tb-slide-list{position:absolute;width:99999px;}
+    .j_Slide .tb-slide-list li{height:150px;list-style:none;}
+    .j_Slide .tb-slide-list li img{width:470px;height:150px;}
+    .lbtn{position:absolute;z-index:3;bottom:3px;right:5px;}
+    .lbtn li{float:left;line-height:21px;width:24px;padding:0 2px;list-style:none;}
+    .lbtn li a,.lbtn li a:link,.lbtn li a:active,.lbtn li a:visited{display:block;text-align:center;background:url('http://www.zzsky.cn/effect/images/201004241815/lbtnA_bg.gif') no-repeat left 50%;line-height:21px;font-family:"Arial Unicode MS";}
+    .lbtn li.hover a,.lbtn li.hover a:link,.lbtn li.hover a:active,.lbtn li.hover a:visited {color:#fff;font-weight:bold;font-family:Verdana;text-decoration:none;background:url('http://www.zzsky.cn/effect/images/201004241815/lbtnA_bg_hover.gif') no-repeat left top;}
+    .direct-left{width:99999px;}
+    .direct-left li{float:left;}
+    .direct-right{}
+    .direct-right li{float:right;}
+</style>
+</head>
+<body>
+<div class="j_Slide loading">
+    <ol class="tb-slide-list">
+        <li class="J_ECPM"><a href="#" target="_blank"><img  alt="js 仿淘宝首页最新图片幻灯切换效果"  src="http://www.zzsky.cn/effect/images/201004241815/ad_5.jpg"></a></li>
+        <li class="J_ECPM"><a href="#" target="_blank"><img  alt="js 仿淘宝首页最新图片幻灯切换效果"  src="http://www.111cn.net/get_pic/2010/03/20100426124407122.jpg"></a></li>
+        <li class="J_ECPM"><a href="#" target="_blank"><img  alt="js 仿淘宝首页最新图片幻灯切换效果"  src="http://www.111cn.net/get_pic/2010/03/20100426124513801.jpg"></a></li>
+        <li class="J_ECPM"><a href="#" target="_blank"><img  alt="js 仿淘宝首页最新图片幻灯切换效果"  src="http://www.111cn.net/get_pic/2010/03/20100426124531303.jpg"></a></li>
+    </ol>
+</div>
+</body>
+</html>
