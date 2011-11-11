@@ -2,31 +2,39 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GB18030">
-<title>--.---.--.--..-.-</title>
+<title>北京大学影视戏剧研究中心</title>
 <link rel="stylesheet" type="text/css" href="css/main.css" />
+<script type="text/javascript" src="js/config.js"></script>
 <script type="text/javascript" src="js/jquery-1.7.min.js"></script>
 <script type="text/javascript" src="js/slide.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-$(function() {
-    var $o = $(".top-slide");
-    var ks = $o.find("ol").Oslide({
-        slidetag:$o.find("ol>li"),
-        easing:"easeInOutCirc",
-        direct:'down',
-        time:6000,
-        speed:450
-    });
-});
-</script>
+<script type="text/javascript" src="js/navigator.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
+<div class="banner-ctner">
+    <div class="banner">
+        <div class="links-ctner">
+            <a href="/">首页</a>
+            <span class="link-seperator">|</span>
+            <a href="http://www.pku.edu.cn" target="_blank">北京大学</a>
+            <span class="link-seperator">|</span>
+            <a id="add_favourite" href="javascript:void(0);">加入收藏</a>
+            <span class="link-seperator">|</span>
+            <a id="set_homepage" href="javascript:void(0);">设为主页</a>
+        </div>
+    </div>
+</div>
+<div class="nav-ctner">
+    <div id="nav" class="nav"></div>
+</div>
+    
 <div class="top-slide loading">
     <ol class="tb-slide-list">
-        <li><a href="http://baidu.com" target="_blank"><img src="slide_pics/slide1.jpg"></a></li>
-        <li><a href="http://sina.com" target="_blank"><img src="slide_pics/slide2.jpg"></a></li>
-        <li><a href="http://google.com" target="_blank"><img src="slide_pics/slide3.jpg"></a></li>
-        <li><a href="http://qq.com" target="_blank"><img src="slide_pics/slide4.jpg"></a></li>
+        <li><a href="http://baidu.com" target="_blank"><img src="slide_pics/slide1.jpg" /></a></li>
+        <li><a href="http://sina.com" target="_blank"><img src="slide_pics/slide2.jpg" /></a></li>
+        <li><a href="http://google.com" target="_blank"><img src="slide_pics/slide3.jpg" /></a></li>
+        <li><a href="http://qq.com" target="_blank"><img src="slide_pics/slide4.jpg" /></a></li>
     </ol>
 </div>
 </body>

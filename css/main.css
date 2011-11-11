@@ -50,8 +50,8 @@ a:hover{
 }
 
 .top-slide{
-    width:470px;
-    height:150px;
+    width:510px;
+    height:305px;
     overflow:hidden;
     position:relative;
     -webkit-border-radius:4px;
@@ -63,13 +63,13 @@ a:hover{
 }
 
 .top-slide .tb-slide-list li{
-    height:150px;
+    height:305px;
     list-style:none;
 }
 
 .top-slide .tb-slide-list li img{
-    width:470px;
-    height:150px;
+    width:510px;
+    height:305px;
 }
 
 .lbtn{
@@ -121,4 +121,38 @@ a:hover{
 
 .direct-right li{
     float:right;
+}
+
+/* 首页样式 */
+.banner-ctner{
+    height:108px;
+    background:#860000;
+    overflow:hidden;
+}
+
+.banner{
+    width:1024px;
+    height:58px;
+    margin:36px auto 0px;
+    background:url('../images/logo.jpg') no-repeat left top;
+    position:relative;
+}
+
+.links-ctner{
+    position:absolute;
+    right:10px;
+    top:28px;
+    width:280px;
+    height:20px;
+    line-height:20px;
+    color:white;
+    text-align:right;
+}
+
+.links-ctner a{
+    color:white;
+}
+
+.link-seperator{
+    padding:0px 3px;
 }
