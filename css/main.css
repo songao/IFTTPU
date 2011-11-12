@@ -26,31 +26,12 @@ img{
     border:none;
 }
 
-a,a:link,a:visited{
-    color:#333333;
-    text-decoration:none;
-    cursor:pointer;
-}
-
-a:hover{
-    color:#008b00;
-    text-decoration:underline;
-}
-
-.hd h3{
-    font-size:14px;
-    color:#444444;
-    padding-left:10px;
-    color:#fff;
-    line-height:30px;
-}
-
 .loading{
     background:#f9fdff url('../images/loading.gif') no-repeat 50% 50%;
 }
 
 .top-slide{
-    width:510px;
+    width:512px;
     height:305px;
     overflow:hidden;
     position:relative;
@@ -67,8 +48,12 @@ a:hover{
     list-style:none;
 }
 
+.top-slide .tb-slide-list li a{
+    display:block;
+}
+
 .top-slide .tb-slide-list li img{
-    width:510px;
+    width:512px;
     height:305px;
 }
 
@@ -96,12 +81,15 @@ a:hover{
     background:url('../images/slide-button-off.gif') no-repeat left 50%;
     line-height:21px;
     font-family:"Arial Unicode MS";
+    color:#333333;
+    text-decoration:none;
 }
 
 .lbtn li.hover a,
 .lbtn li.hover a:link,
 .lbtn li.hover a:active,
 .lbtn li.hover a:visited {
+    display:block;
     color:#fff;
     font-weight:bold;
     font-family:Verdana;
@@ -151,10 +139,142 @@ a:hover{
 
 .links-ctner a{
     color:white;
+    text-decoration:none;
+}
+
+.links-ctner a:hover{
+    text-decoration:underline;
 }
 
 .link-seperator{
     padding:0px 3px;
+}
+
+.main-frame{
+    width:1024px;
+    margin:8px auto 0px;
+}
+
+.left-frame{
+    width:218px;
+    padding-right:20px;
+    float:left;
+}
+
+.center-frame{
+    width:512px;
+    padding:11px 17px 65px;
+    float:left;
+    border-left:1px solid #8F8F8F;
+    border-right:1px solid #8F8F8F;
+}
+
+.right-frame{
+    width:218px;
+    padding-left:20px;
+    float:left;
+}
+
+.content-block{
+    margin-top:15px;
+    float:left;
+}
+
+.content-block a, .content-block a:hover, .content-block a:visited{
+    color:#141414;
+    text-decoration:none;
+}
+
+.content-block a:hover{
+    text-decoration:underline;
+}
+
+.block-title{
+    height:30px;
+    line-height:30px;
+    padding-left:18px;
+    color:#790303;
+    font-size:14px;
+    font-family:"黑体";
+    border-bottom:1px solid #CBCBCB;
+    background:url('../images/list-icon-square.gif') no-repeat 5px 12px;
+}
+
+.block-table{
+    width:100%;
+    border:none;
+    border-collapse:collapse;
+    border-spacing:0px;
+}
+
+.block-icon-arrow{
+    background:url('../images/table-icon-arrow.gif') no-repeat 5px 12px;
+    width:25px;
+}
+
+.block-icon-dot{
+    background:url('../images/table-icon-dot.gif') no-repeat 6px 13px;
+    width:18px;
+}
+
+.center-block{
+    width:247px;
+}
+
+.center-block td{
+    line-height:18px;
+    padding-top:7px;
+}
+
+.left-top-block{
+    width:204px;
+    float:right;
+}
+
+.left-top-block td{
+    line-height:18px;
+    padding:5px 0px;
+    border-bottom:1px solid #DBDBDB;
+}
+
+.left-down-block{
+    width:204px;
+    float:right;
+}
+
+.left-down-block td{
+    line-height:16px;
+    padding:5px 0px;
+    text-align:center;
+    border-bottom:1px dashed #CBCBCB;
+}
+
+.right-block{
+    width:204px;
+    float:left;
+}
+
+.right-block td{
+    line-height:18px;
+    padding-top:10px;
+}
+
+.right-block .block-title{
+    background:#DFDFDF;
+    padding-left:15px;
+}
+
+.right-block .block-icon-dot{
+    background-position:6px 18px
+}
+
+.more-ctner{
+    text-align:right;
+}
+
+.more-ctner a, .more-ctner a:hover{
+    color:#555555;
+    text-decoration:underline;
 }
 
 /* 导航栏样式 */
@@ -179,13 +299,16 @@ a:hover{
 }
 
 .nav-item a, .nav-item a:hover{
+    color:black;
+    text-decoration:none;
     display:block;
     font-size:14px;
     padding:0px 22px;
 }
 
 .nav-item a:hover{
-    background:#860000;
+    color:#860000;
+    text-decoration:underline;
 }
 
 .nav-seperator{
@@ -193,4 +316,30 @@ a:hover{
     height:38px;
     background:url('../images/nav-seperator.jpg') no-repeat;
     float:left;
+}
+
+
+/* 页面底部的样式 */
+.footer{
+    height:112px;
+    background:#860000;
+    clear:both;
+    overflow:hidden;
+}
+
+.copyright{
+    margin:28px auto 0px;
+    width:1024px;
+    line-height:24px;
+    text-align:center;
+    color:white;
+}
+
+.copyright a, .copyright a:hover{
+    color:white;
+    text-decoration:none;
+}
+
+.copyright a:hover{
+    text-decoration:underline;
 }
