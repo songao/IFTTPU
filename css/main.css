@@ -156,3 +156,41 @@ a:hover{
 .link-seperator{
     padding:0px 3px;
 }
+
+/* 导航栏样式 */
+.nav-ctner{
+    height:38px;
+    background:url('../images/nav-bg.jpg') repeat-x;
+}
+
+.nav{
+    width:900px;
+    height:38px;
+    margin:0px auto;
+}
+
+.nav-item{
+    float:left;
+}
+
+.nav-item, .nav-item a{
+    height:38px;
+    line-height:38px;
+}
+
+.nav-item a, .nav-item a:hover{
+    display:block;
+    font-size:14px;
+    padding:0px 22px;
+}
+
+.nav-item a:hover{
+    background:#860000;
+}
+
+.nav-seperator{
+    width:2px;
+    height:38px;
+    background:url('../images/nav-seperator.jpg') no-repeat;
+    float:left;
+}

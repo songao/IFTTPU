@@ -1,7 +1,6 @@
 $(function() {
-    //注册导航栏数据并显示导航栏
-    ifttpu.navigator.register(ifttpu.config.navigator);
-    ifttpu.navigator.render($('nav'));
+    //生成和显示导航栏
+    ifttpu.navigator.render($('#nav')[0], ifttpu.config.navigator, '首页');
     
     //图片轮播
     var $o = $(".top-slide");
