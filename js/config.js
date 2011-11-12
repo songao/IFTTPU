@@ -12,6 +12,11 @@ var ifttpu = ifttpu || {};
 
 ifttpu.config = {
     /**
+     * 点击“加入收藏”或“设为主页”时，添加到收藏夹或设置为主页的网址
+     */
+    'favorite_url' : 'http://iffpu.pku.edu.cn',
+    
+    /**
      * 导航栏数据
      */
     'navigator' : [{

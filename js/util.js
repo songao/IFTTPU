@@ -14,10 +14,10 @@ ifttpu.util = {
      * 加入收藏夹功能
      */
     addFavorite : function(){
-        var url = window.location.href,
+        var url = ifttpu.config.favorite_url || window.location.href,
             title = document.title;
         try {
-            window.external.addFavorite(url, title);
+            window.external.AddFavorite(url, title);
         }catch(e){
             try{
                 window.sidebar.addPanel(title, url, '');
@@ -32,7 +32,7 @@ ifttpu.util = {
      * @param {HTMLElement} domEle 触发改动作的dom元素
      */
     setHome : function(domEle) {
-        var url = window.location.href;
+        var url = ifttpu.config.favorite_url || window.location.href;
         try{
             domEle.style.behavior = 'url(#default#homepage)';
             domEle.setHomePage(url);
