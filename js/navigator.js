@@ -2,7 +2,7 @@
  * 北京大学影视戏剧研究中心官方网站
  * Copyright 2011 IFTTPU All rights reserved.
  *
- * path:    js/config.js
+ * path:    js/navigator.js
  * desc:    导航功能
  * author:  songao
  * date:    $Date: 2011-03-01 00:03:53 +0800 (星期二, 01 十一月 2011) $
