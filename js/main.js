@@ -79,7 +79,7 @@ function renderPublishBlock(container, data){
         }));
     });
     htmlArr.push($.format(bottomTpl, {
-        'mor_url' : data.more_url
+        'more_url' : data.more_url
     }));
     container.innerHTML = htmlArr.join('');
 }

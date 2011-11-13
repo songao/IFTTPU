@@ -97,6 +97,7 @@ ifttpu.config = {
     
     /**
      * 左下角的模块：出版物
+	 * 说明：图片尺寸应该为(55像素*68像素)
      */
     'left_bottom_block' : {
         'title' : '出版物',
@@ -118,6 +119,7 @@ ifttpu.config = {
     
     /**
      * 图片轮播
+	 * 说明：图片尺寸应该为(512像素*305像素)
      */
     'slide' : [{
         'img' : 'slide_pics/slide1.jpg',

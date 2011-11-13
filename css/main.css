@@ -46,6 +46,7 @@ img{
 .top-slide .tb-slide-list li{
     height:305px;
     list-style:none;
+	vertical-align:text-top
 }
 
 .top-slide .tb-slide-list li a{
