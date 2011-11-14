@@ -38,7 +38,7 @@ function getCurrentPageData(data, currentPage){
  */
 function renderModuleList(container, data, moduleName){
     var headTpl = [
-            '<div>您现在的位置：<a href="./index.html">首页</a> &gt; #{moduleCNName}</div>',
+            '<div class="module-crumb">您现在的位置：<a href="./index.html">首页</a> &gt; #{moduleCNName}</div>',
             '<h2 class="module-title">#{moduleCNName}</h2>',
             '<div class="module-list-ctner">',
                 '<table class="module-table">',
@@ -49,8 +49,8 @@ function renderModuleList(container, data, moduleName){
         ].join(''),
         rowTpl = [
                     '<tr>',
-                        '<td><a href="?module=#{moduleName}&id=#{article_id}">#{article_title}</a></td>',
-                        '<td class="module-date">#{article_date}</td>',
+                        '<td class="module-list-url"><a href="?module=#{moduleName}&id=#{article_id}">#{article_title}</a></td>',
+                        '<td class="module-list-date">#{article_date}</td>',
                     '</tr>'
         ].join(''),
         bottomTpl = [
@@ -82,7 +82,7 @@ function renderModuleList(container, data, moduleName){
  */
 function renderContent(container, data, moduleName){
     var contentTpl = [
-            '<div>您现在的位置：<a href="./index.html">首页</a> &gt; <a href="?module=#{moduleName}">#{moduleCNName}</a></div>',
+            '<div class="module-crumb">您现在的位置：<a href="./index.html">首页</a> &gt; <a href="?module=#{moduleName}">#{moduleCNName}</a></div>',
             '<div class="module-body">',
                 '<h2 class="article-title">#{article_title}</h2>',
                 '<div class="article-info">发表日期： #{article_date}</div>',
