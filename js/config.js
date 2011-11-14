@@ -14,48 +14,61 @@ ifttpu.config = {
     /**
      * 点击“加入收藏”或“设为主页”时，添加到收藏夹或设置为主页的网址
      */
-    'favorite_url' : 'http://iffpu.pku.edu.cn',
+    'favorite_url' : 'http://ifttpu.pku.edu.cn',
     
     /**
      * 导航栏数据
      */
     'navigator' : [{
         name: '首页',
-        location: '/',
+        location: './index.html',
         sub: []
     },{
         name: '中心概况',
-        location: '/introduction',
+        location: './content.html?module=introduction',
         sub: []
     },{
         name: '中心公告',
-        location: '/announce',
+        location: './content.html?module=announce',
         sub: []
     },{
         name: '学术研究',
-        location: '/research',
+        location: './content.html?module=research',
         sub: []
     },{
         name: '合作交流',
-        location: '/corporate',
+        location: './content.html?module=corporate',
         sub: []
     },{
         name: '组织架构',
-        location: '/organization',
+        location: './content.html?module=organization',
         sub: []
     },{
         name: '品牌活动',
-        location: '/activity',
+        location: './content.html?module=activity',
         sub: []
     },{
         name: '出版物',
-        location: '/publishment',
+        location: './content.html?module=publishment',
         sub: []
     },{
         name: '高峰论坛',
-        location: '/forum',
+        location: './content.html?module=forum',
         sub: []
     }],
+    
+    'module_map' : {
+        'introduction' : '中心概况',
+        'announce' : '中心公告',
+        'research' : '学术研究',
+        'corporate' : '合作交流',
+        'organization' : '组织架构',
+        'activity' : '品牌活动',
+        'publishment' : '出版物',
+        'forum' : '高峰论坛'
+    },
+    
+    'numPerPage' : 5,
     
     /**
      * 左上角的模块：中心公告

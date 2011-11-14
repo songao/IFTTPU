@@ -344,3 +344,86 @@ img{
 .copyright a:hover{
     text-decoration:underline;
 }
+
+
+/* 其他 */
+.pager{
+    text-align:center;
+    margin:20px 0px 30px;
+}
+
+.module-content{
+    width:800px;
+    margin:0px auto;
+}
+
+.module-title{
+    text-align:center;
+    margin:20px 0px 20px;
+    padding-bottom:10px;
+    border-bottom:2px solid #A60000;
+    font-size:22px;
+    color:#860000;
+}
+
+.module-list-ctner{
+    width:750px;
+    margin:10px auto;
+}
+
+.module-table{
+    width:100%;
+    border:none;
+    border-collapse:collapse;
+    border-spacing:0px;
+}
+
+.module-table a, .module-table a:hover, .module-table a:visited{
+    color:#141414;
+    text-decoration:none;
+}
+
+.module-table a:hover{
+    text-decoration:underline;
+}
+
+.module-table td{
+    line-height:18px;
+    padding:10px 0px;
+    border-bottom:1px dashed #DBDBDB;
+}
+
+.module-date{
+    text-align:center;
+}
+
+.article-title{
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: bold;
+    color: black;
+    border-bottom: 1px solid #CCCCCC;
+    text-align:center;
+}
+
+.article-info{
+    color: black;
+    font-size: 12px;
+    line-height: 28px;
+    text-align:center;
+}
+
+.article-content{
+    padding:10px;
+    color: #000000;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.article-content p{
+    margin: 16px 0;
+    text-indent: 28px;
+}
+
+.module-body{
+}
