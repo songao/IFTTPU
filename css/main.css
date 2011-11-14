@@ -363,9 +363,8 @@ img{
 
 .module-title{
     text-align:center;
-    margin:10px 0px 25px;
-    padding-bottom:10px;
-    border-bottom:2px solid #A60000;
+    margin:10px 0px;
+    /*border-bottom:2px solid #A60000;*/
     font-size:22px;
     color:#860000;
 }
@@ -381,13 +380,21 @@ img{
     border-spacing:0px;
 }
 
-.module-table a, .module-table a:hover, .module-table a:visited{
+.module-table a, .module-table a:visited{
     color:#141414;
     text-decoration:none;
 }
 
 .module-table a:hover{
+    color:#860000;
     text-decoration:underline;
+}
+
+.module-table th{
+    line-height:18px;
+    padding:10px 0px;
+    border-bottom:1px solid #DBDBDB;
+    font-size:14px;
 }
 
 .module-table td{
