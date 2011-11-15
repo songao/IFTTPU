@@ -30,6 +30,10 @@ img{
     display:none;
 }
 
+.clear-both{
+    clear:both;
+}
+
 .loading{
     background:#f9fdff url('../images/loading.gif') no-repeat 50% 50%;
 }
@@ -454,6 +458,31 @@ td.module-list-url-noicon{
 .article-content p{
     margin: 16px 0;
     text-indent: 28px;
+}
+
+.article-content img{
+    border:none;
+    margin:5px;
+}
+
+.article-content img.center{
+    display:block;
+    margin:5px auto;
+}
+
+.article-content img.left{
+    float:left;
+}
+
+.article-content img.right{
+    float:right;
+}
+
+.article-portrail{
+    text-align:center;
+    width:83px;
+    padding:5px;
+    float:left;
 }
 
 .article-operation{
