@@ -409,9 +409,18 @@ img{
     border-bottom:1px dashed #DBDBDB;
 }
 
+.module-list-img{
+    width:75px;
+    text-align:center;
+}
+
 td.module-list-url{
     background:url('../images/module-list-icon.gif') no-repeat 2px 15px;
     padding-left:20px;
+}
+
+td.module-list-url-noicon{
+    padding-left:5px;
 }
 
 .module-list-date{

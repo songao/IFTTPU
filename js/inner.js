@@ -35,14 +35,16 @@ function getCurrentPageData(data, currentPage){
  * @param {HTMLElement} container 容器元素
  * @param {Object} data 当前page的数据
  * @param {string} moduleName 板块的名称
+ * @param {string} type 列表类型：有普通列表和图片列表两种类型
  */
-function renderModuleList(container, data, moduleName){
+function renderModuleList(container, data, moduleName, type){
     var headTpl = [
             '<div class="module-crumb">您现在的位置：<a href="./index.html">首页</a> &gt; #{moduleCNName}</div>',
             '<h2 class="module-title">#{moduleCNName}</h2>',
             '<div class="module-list-ctner">',
                 '<table class="module-table">',
                     '<tr>',
+                        (type == 'img_list' ? '<th>图片</th>' : ''),
                         '<th style="text-align:left">标题</th>',
                         '<th>发表日期</th>',
                     '</tr>'
@@ -50,6 +52,17 @@ function renderModuleList(container, data, moduleName){
         rowTpl = [
                     '<tr>',
                         '<td class="module-list-url"><a href="?module=#{moduleName}&id=#{article_id}">#{article_title}</a></td>',
+                        '<td class="module-list-date">#{article_date}</td>',
+                    '</tr>'
+        ].join(''),
+        imgRowTpl = [
+                    '<tr>',
+                        '<td class="module-list-img">',
+                            '<a target="_blank" href="?module=#{moduleName}&id=#{article_id}">',
+                                '<img width="55" height="68" src="#{img_url}">',
+                            '</a>',
+                        '</td>',
+                        '<td class="module-list-url-noicon"><a href="?module=#{moduleName}&id=#{article_id}">#{article_title}</a></td>',
                         '<td class="module-list-date">#{article_date}</td>',
                     '</tr>'
         ].join(''),
@@ -63,11 +76,12 @@ function renderModuleList(container, data, moduleName){
         'moduleCNName' : ifttpu.config.module_map[moduleName]
     }));
     T.object.each(data, function(item, key){
-        htmlArr.push(T.format(rowTpl, {
+        htmlArr.push(T.format((type == 'img_list' ? imgRowTpl : rowTpl), {
             'moduleName' : moduleName,
             'article_id' : item.id,
             'article_title' : item.title,
-            'article_date' : item.date
+            'article_date' : item.date,
+            'img_url' : item.img
         }));
     });
     htmlArr.push(bottomTpl);
@@ -120,11 +134,11 @@ $(function() {
     
     if(module.type == 'article'){//整个板块就一个页面
         renderContent(T.g('content'), data, moduleName);
-    }else if(typeof id == 'undefined'){//列表页
+    }else if(typeof id == 'undefined'){//普通列表页
         page = page || 1;
         //显示列表内容
         var currentData = getCurrentPageData(data, page);
-        renderModuleList(T.g('content'), currentData, moduleName);
+        renderModuleList(T.g('content'), currentData, moduleName, module.type);
         
         //显示pager
         var pager = new baidu.ui.Pager({

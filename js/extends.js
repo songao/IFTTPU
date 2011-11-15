@@ -3,7 +3,7 @@
  * Copyright 2011 IFTTPU All rights reserved.
  *
  * path:    js/extends.js
- * desc:    自定义的jQuery扩展
+ * desc:    自定义的jQuery扩展或者Tangram扩展
  * author:  songao
  * date:    $Date: 2011-03-01 00:03:53 +0800 (星期二, 01 十一月 2011) $
  */
