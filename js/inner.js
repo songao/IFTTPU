@@ -87,6 +87,11 @@ function renderContent(container, data, moduleName){
                 '<h2 class="article-title">#{article_title}</h2>',
                 '<div class="article-info">发表日期： #{article_date}</div>',
                 '<div class="article-content">#{article_content}</div>',
+                '<div class="article-operation">',
+                    '<a href="javascript:window.print();">[打印页面]</a>&nbsp;&nbsp;',
+                    '<a href="javascript:window.close();">[关闭页面]</a>',
+                '</div>',
+                '<div class="article-warning">转载本网文章请注明出处</div>',
             '</div>'
         ].join(''),
         htmlArr = [];

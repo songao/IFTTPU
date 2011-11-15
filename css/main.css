@@ -187,6 +187,7 @@ img{
 }
 
 .content-block a:hover{
+    color:#A60000;
     text-decoration:underline;
 }
 
@@ -308,7 +309,7 @@ img{
 }
 
 .nav-item a:hover{
-    color:#860000;
+    color:#A60000;
     text-decoration:underline;
 }
 
@@ -365,8 +366,9 @@ img{
     text-align:center;
     margin:10px 0px;
     /*border-bottom:2px solid #A60000;*/
-    font-size:22px;
-    color:#860000;
+    font-size:24px;
+    color:#333333;
+    font-family:"宋体";
 }
 
 .module-list-ctner{
@@ -409,6 +411,7 @@ td.module-list-url{
 }
 
 .module-list-date{
+    width:110px;
     text-align:center;
 }
 
@@ -438,6 +441,22 @@ td.module-list-url{
 .article-content p{
     margin: 16px 0;
     text-indent: 28px;
+}
+
+.article-operation{
+    text-align:center;
+    line-height:18px;
+}
+
+.article-operation a, .article-operation a:hover{
+    color:black;
+    text-decoration:none;
+}
+
+.article-warning{
+    padding:20px 0px;
+    text-align:center;
+    font-weight:bold;
 }
 
 .module-body{
