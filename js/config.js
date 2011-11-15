@@ -77,42 +77,19 @@ ifttpu.config = {
     },
     
     /**
-     * 左下角的模块：出版物
-	 * 说明：图片尺寸应该为(55像素*68像素)
-     */
-    'left_bottom_block' : {
-        'title' : '出版物',
-        'links' : [{
-            'img' : 'book_pics/book1.jpg',
-            'text' : '《影视戏剧学季刊》<br />第10卷<br />第1期',
-            'url' : '/publish?id=123'
-        },{
-            'img' : 'book_pics/book2.jpg',
-            'text' : '《影视戏剧学季刊》<br />第10卷<br />第2期',
-            'url' : '/publish?id=112'
-        },{
-            'img' : 'book_pics/book3.jpg',
-            'text' : '《影视戏剧学季刊》<br />第10卷<br />第3期',
-            'url' : '/publish?id=443'
-        }],
-        'more_url' : '/publish/index.html'
-    },
-    
-    /**
      * 图片轮播
-	 * 说明：图片尺寸应该为(512像素*305像素)
      */
     'slide' : [{
-        'img' : 'slide_pics/slide1.jpg',
-        'url' : '/news?id=1213'
+        'img' : 'upload_pics/image023.jpg',
+        'url' : './content.html?module=announce&id=2'
     },{
-        'img' : 'slide_pics/slide2.jpg',
-        'url' : '/news?id=1663'
+        'img' : 'upload_pics/image056.jpg',
+        'url' : './content.html?module=cooperate&id=2'
     },{
-        'img' : 'slide_pics/slide3.jpg',
-        'url' : '/news?id=17873'
+        'img' : 'upload_pics/image041.jpg',
+        'url' : './content.html?module=activity&id=3'
     },{
-        'img' : 'slide_pics/slide4.jpg',
-        'url' : '/news?id=1278'
+        'img' : 'upload_pics/image050.jpg',
+        'url' : './content.html?module=activity&id=5'
     }]
 };
