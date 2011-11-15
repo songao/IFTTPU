@@ -85,7 +85,7 @@ function renderContent(container, data, moduleName){
             '<div class="module-crumb">您现在的位置：<a href="./index.html">首页</a> &gt; <a href="?module=#{moduleName}">#{moduleCNName}</a></div>',
             '<div class="module-body">',
                 '<h2 class="article-title">#{article_title}</h2>',
-                '<div class="article-info">发表日期： #{article_date}</div>',
+                '<div class="article-info#{is_hide}">发表日期： #{article_date}</div>',
                 '<div class="article-content">#{article_content}</div>',
                 '<div class="article-operation">',
                     '<a href="javascript:window.print();">[打印页面]</a>&nbsp;&nbsp;',
@@ -98,7 +98,8 @@ function renderContent(container, data, moduleName){
     htmlArr.push(T.format(contentTpl, {
         'moduleName' : moduleName,
         'moduleCNName' : ifttpu.config.module_map[moduleName],
-        'article_date' : data.date,
+        'article_date' : data.date || '',
+        'is_hide' : (data.date ? '' : ' hide'),
         'article_title' : data.title,
         'article_content' : data.content
     }));
@@ -110,13 +111,16 @@ $(function() {
         numPerPage = config.numPerPage,
         params = T.url.queryToJson(window.location.href),
         moduleName = params['module'],
+        module = ifttpu.module[moduleName],
         id = params['id'],
         page = params['page'],
-        data = ifttpu.module[moduleName].data;
+        data = module.data;
     //生成和显示导航栏
     ifttpu.navigator.render($('#nav')[0], config.navigator, config.module_map[moduleName]);
     
-    if(typeof id == 'undefined'){//列表页
+    if(module.type == 'article'){//整个板块就一个页面
+        renderContent(T.g('content'), data, moduleName);
+    }else if(typeof id == 'undefined'){//列表页
         page = page || 1;
         //显示列表内容
         var currentData = getCurrentPageData(data, page);

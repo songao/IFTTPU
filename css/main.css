@@ -26,6 +26,10 @@ img{
     border:none;
 }
 
+.hide{
+    display:none;
+}
+
 .loading{
     background:#f9fdff url('../images/loading.gif') no-repeat 50% 50%;
 }

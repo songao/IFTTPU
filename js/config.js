@@ -37,7 +37,7 @@ ifttpu.config = {
         sub: []
     },{
         name: '合作交流',
-        location: './content.html?module=corporate',
+        location: './content.html?module=cooperate',
         sub: []
     },{
         name: '组织架构',
@@ -61,7 +61,7 @@ ifttpu.config = {
         'introduction' : '中心概况',
         'announce' : '中心公告',
         'research' : '学术研究',
-        'corporate' : '合作交流',
+        'cooperate' : '合作交流',
         'organization' : '组织架构',
         'activity' : '品牌活动',
         'publishment' : '出版物',
