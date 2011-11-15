@@ -47,5 +47,15 @@ ifttpu.util = {
                 prefs.setCharPref('browser.startup.homepage', url);
             }
         }
+    },
+    
+    autoResizePic : function(height, img){
+        var result = {};
+        if(img.offsetHeight > height){
+            result.height = height;
+            result.width = parseInt((height * img.offsetWidth) / img.offsetHeight, 10);
+            img.height = result.height;
+            img.width = result.width;
+        }
     }
 };

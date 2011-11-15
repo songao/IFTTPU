@@ -6,53 +6,28 @@ ifttpu.module.activity = {
     type : 'list',
     data : {
         '1': {
-            'title' : '中国人工智能学会第一届全国青年论坛在北大深圳研究生院开幕',
-            'content' : '<p>近日，第九届中国智能机器人学术研讨会暨中国人工智能学会第一届全国青年论坛开幕式在深圳研究生院院举行。开幕式由北京大学深圳研究生院科研处处长、智能机器人开放实验室主任刘宏教授主持。</p><p/><p align="center"><center><p align="center"><center><img style="BORDER-BOTTOM: #000000 0px solid; BORDER-LEFT: #000000 0px solid; BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid" id="88109" title="" border="0" align="center" src="../../attachement/jpg/site2/20111114/002564c1964d102aa42e0a.jpg" width="485" height="323" sourcename="本地文件" sourcedescription="编辑提供的本地文件"/></center></p><p/><p>会议现场</p></center><div style="TEXT-ALIGN: left" align="left">    中国工程院院士、香港中文大学副校长徐扬生教授，深圳市科技工贸和信息化委员会副主任刘锦，原中国人工智能学会理事长、北京邮电大学副校长钟义信教授，中国人工智能学会副理事长、中南大学蔡自兴教授，中国人工智能学会常务理事、华中科技大学黄心汉教授，中国人工智能学会副理事长、中国科学院谭民教授，国家“863”计划机器人技术主题专家组成员、哈尔滨工业大学孙立宁教授，北京大学校长助理、深圳研究生院常务副院长史守旭教授，深圳研究生院党委书记、副院长栾胜基以及来自全国各地的智能机器人专家和青年学者出席了此次开幕式。</div></p><p/><p/><p align="center"><center><center> </center><center><img style="BORDER-BOTTOM: #000000 0px solid; BORDER-LEFT: #000000 0px solid; BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid" id="88113" title="" border="0" align="center" src="../../attachement/jpg/site2/20111114/002564c1964d102aa48516.jpg" width="485" height="323" sourcename="本地文件" sourcedescription="编辑提供的本地文件"/></center><center> </center><center><span>北京大学校长助理、北京大学深圳研究生院常务副院长史守旭致辞</span></center></center></p><p/><p/><p>中国人工智能学会成立于1981年，是中国科学技术协会的正式团体会员。学会目前拥有33个分支机构，包括28个专业委员会和5个工作委员会，基本覆盖了智能科学与技术领域。随着智能科学技术的迅猛发展和越来越广泛的应用，学会的专业委员会处在快速增长中，一大批与智能科学技术有关的学术团体加入中国人工智能学会。</p><p/><p>人工智能是我国信息科学领域发展的重点学科，近几年人工智能产业也在我国迅猛发展，其技术应用在国民经济的各个行业。</p><p/><p>据悉，深圳市目前有人工智能行业企业500多家，涉及人工智能监控、家用机器人行业等，人工智能行业已经成为深圳信息产业的支柱之一。</p><p/><p>编辑：聪平</p><!--/enpcontent-->',
+            'title' : '打造“北大首映”品牌活动',
+            'content' : '<p>活跃北大影视戏剧氛围，服务业界影视戏剧创作。打造“北大首映”品牌活动，与制片方合作，联合北大电影协会、北大话剧社等学生社团开展，举办电影、电视剧、戏剧的“北大首映（演）典礼”及影视戏剧讲座或沙龙，导演、编剧、作品研讨等系列活动。</p><img class="left" src="upload_pics/image032.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><img class="left" src="upload_pics/image033.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><img class="left" src="upload_pics/image034.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><img class="left" src="upload_pics/image035.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><img class="left" src="upload_pics/image036.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><img class="left" src="upload_pics/image037.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><img class="left" src="upload_pics/image038.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><div class="clear-both"></div>',
             'date' : '2011-9-10'
         },
         '2': {
-            'title' : '我是标题2',
-            'content' : '<p>我是内容2</p>',
+            'title' : '发起“华语网络影视短片创意作品征集大赛”，协办“北大影视创作季”，发起“北大影视戏剧新写作计划”等',
+            'content' : '<p>鼓励和支持大学生影视戏剧创作。发起“华语网络影视短片创意作品征集大赛”，协办“北大影视创作季”，发起“北大影视戏剧新写作计划”等。</p><img class="left" src="upload_pics/image039.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><img class="left" src="upload_pics/image040.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><div class="clear-both"></div>',
             'date' : '2011-9-12'
         },
         '3': {
-            'title' : '我是标题3',
-            'content' : '<p>我是内容2</p>',
+            'title' : '组织“田沁鑫戏剧进北大”系列活动，举办“田沁鑫戏剧艺术研讨会”',
+            'content' : '<p>组织“田沁鑫戏剧进北大”系列活动，举办“田沁鑫戏剧艺术研讨会”</p><img class="left" src="upload_pics/image041.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><img class="left" src="upload_pics/image042.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><img class="left" src="upload_pics/image043.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><img class="left" src="upload_pics/image044.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><img class="left" src="upload_pics/image045.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><img class="left" src="upload_pics/image046.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><img class="left" src="upload_pics/image047.jpg" onload="ifttpu.util.autoResizePic(150, this)" /><div class="clear-both"></div>',
             'date' : '2011-9-12'
         },
         '4': {
-            'title' : '我是标题4',
-            'content' : '<p>我是内容2</p>',
+            'title' : '主办一年一度的世界华语电影论坛',
+            'content' : '<p>主办一年一度的世界华语电影论坛。力图将论坛打造成华语电影产学业界一年一度的交流盛事，打造成为华语电影论坛首席品牌，论坛自2010年举办首届以来，已经成功举办两届。</p><img class="center" src="upload_pics/image048.jpg" onload="ifttpu.util.autoResizePic(400, this)" /><div class="clear-both"></div>',
             'date' : '2011-9-12'
         },
         '5': {
-            'title' : '我是标题5',
-            'content' : '<p>我是内容2</p>',
-            'date' : '2011-9-12'
-        },
-        '6': {
-            'title' : '我是标题6',
-            'content' : '<p>我是内容2</p>',
-            'date' : '2011-9-12'
-        },
-        '7': {
-            'title' : '我是标题7',
-            'content' : '<p>我是内容2</p>',
-            'date' : '2011-9-12'
-        },
-        '8': {
-            'title' : '我是标题8',
-            'content' : '<p>我是内容2</p>',
-            'date' : '2011-9-12'
-        },
-        '9': {
-            'title' : '我是标题9',
-            'content' : '<p>我是内容2</p>',
-            'date' : '2011-9-12'
-        },
-        '10': {
-            'title' : '我是标题10',
-            'content' : '<p>我是内容2</p>',
+            'title' : '定期举办专题性、前沿性影视戏剧研讨会',
+            'content' : '<p>定期举办专题性、前沿性影视戏剧研讨会。与中国电影资料馆合作，举办“中小成本电影：创作策略与市场推广”研讨会（北京，2011年9月）。与中国高教影视教育委员会、贵州民族学院等合作举办了 “中国高教影视教育委员会2011年年会暨‘孙明经电影教育’学术研讨会（贵阳，2011年9月）</p><img class="center" src="upload_pics/image049.jpg" onload="ifttpu.util.autoResizePic(400, this)" /><img class="center" src="upload_pics/image050.jpg" onload="ifttpu.util.autoResizePic(400, this)" /><img class="center" src="upload_pics/image051.jpg" onload="ifttpu.util.autoResizePic(300, this)" /><img class="center" src="upload_pics/image052.jpg" onload="ifttpu.util.autoResizePic(400, this)" /><img class="center" src="upload_pics/image053.jpg" onload="ifttpu.util.autoResizePic(300, this)" /><div class="clear-both"></div>',
             'date' : '2011-9-12'
         }
     }
