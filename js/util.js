@@ -57,5 +57,9 @@ ifttpu.util = {
             img.height = result.height;
             img.width = result.width;
         }
+    },
+    
+    writeScript : function(src) {
+        document.write('<sc' + 'ript type="text/javascript" src="' + src + '"></' + 'script>');
     }
 };
