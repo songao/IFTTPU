@@ -14,7 +14,7 @@ ifttpu.config = {
     /**
      * 点击“加入收藏”或“设为主页”时，添加到收藏夹或设置为主页的网址
      */
-    'favorite_url' : 'http://ifttpu.pku.edu.cn',
+    'favorite_url' : 'http://ysxj.pku.edu.cn',
     
     /**
      * 对于列表页，每页显示的条数
