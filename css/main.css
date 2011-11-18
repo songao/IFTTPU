@@ -312,6 +312,7 @@ img{
     color:black;
     text-decoration:none;
     display:block;
+    float:left;
     font-size:14px;
     padding:0px 22px;
 }
